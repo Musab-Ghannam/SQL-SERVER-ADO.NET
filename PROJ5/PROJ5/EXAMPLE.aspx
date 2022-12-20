@@ -167,7 +167,45 @@ i {
             position: relative;
         }
 
+            .social{
+            display:flex;
+            flex-direction:row-reverse;
+            justify-content:space-evenly;
+           flex-wrap:wrap;
+            align-content:center;
+            align-self:center;
+            align-items:center;
+            padding-bottom:0.3rem;
+        }
+        .inst{
+            display:flex;
+            flex-direction:row;
+            font-size:1rem;
+            text-align:center;
+            justify-content:center;
+        }
+        .inst a{
+            display:block;
+            font-size:1rem;
+            margin-right:1rem;
 
+        }
+        .aboutinfooter{
+            display:flex;
+            flex-direction:column;
+            color:white;
+            
+        }
+        .aboutinfooter a{
+            margin-bottom:0.5rem;
+              display:block;
+            font-size:1rem;
+            margin-right:1rem;
+            text-decoration:none;
+            color:white;
+            text-align:center;
+            
+        }
 
         .fa-chevron-right {
             position: absolute;
@@ -301,7 +339,10 @@ i {
            margin-top:30px;
        }
 /**/
-
+.info a{
+    text-decoration:none;
+    color :black;
+}
     </style>
 </head>
 
@@ -424,17 +465,33 @@ i {
              <asp:Button ID="Button2" runat="server" Text="INSERT" OnClick="Button2_Click" />--%>
 
 
-        <footer id="footer1" style="background-color: #808080">
+    <footer id="footer1" style="background-color: #808080 ;margin-top:50px">
 
             <div class="social">
-                <p id="rights" style="text-align: center; color: white">© 2022 Social Hawk. All Rights Reserved</p>
-                <div class="inst" style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
-                    <a class="icons" href="https://web.facebook.com/musab.alghannam.37/" target="_blank" style="text-decoration: none; color: white;"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a class="icons" href="https://www.linkedin.com/in/musab-ghannam-0a8284253/" target="_blank" style="text-decoration: none; color: white;"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a class="icons" href=""><i class="fa-brands fa-twitter" style="text-decoration: none; color: white;"></i></a>
-                    <a class="icons" href="https://www.instagram.com/musab_ghannam/" target="_blank" style="text-decoration: none; color: white;"><i class="fa-brands fa-square-instagram"></i></a>
+                
+             <div class="copyright">
+                       <p id="rights" style=" color: white">© 2020 Copyright:All Rights Reserved</p>
+               
+                <div class="inst">
+                    <a class="icons" href="https://web.facebook.com/musab.alghannam.37/" target="_blank" style="text-decoration: none; color: white;"><i  class="fab fa-facebook-f fa-2x"></i></a>
+                    <a class="icons" href="https://www.linkedin.com/in/musab-ghannam-0a8284253/" target="_blank" style="text-decoration: none; color: white;"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                    <a class="icons" href="https://www.instagram.com/musab_ghannam/" target="_blank" style="text-decoration: none; color: white;"><i class="fab fa-instagram fa-2x" aria-hidden="true"></i></a>
                 </div>
             </div>
+             <div class="aboutinfooter">
+                <h3>ABOUT</h3>
+                <a href="#">ABOUT US</a>
+                <a href="#">BOOKS</a>
+                 
+            </div>
+                <div claa="contact" style="display:flex;flex-direction:column">
+                    <p style="color: white;font-size:16px"><i class="fa fa-phone" aria-hidden="true">+96278095488</i></p>
+                    <p  style="color: white;font-size:16px;"><i class="fa fa-map-marker"  aria-hidden="true"></i>Ammman-Jordan:7th Circle near Jet- opposite to Arab BanK</p>
+                </div>
+               
+            
+            </div>
+            
 
         </footer>
 

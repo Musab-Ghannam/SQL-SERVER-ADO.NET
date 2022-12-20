@@ -52,7 +52,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../pages/icons/themify.html">
+            <a class="nav-link" href="http://localhost:56508/Product.aspx">
               <i class="fa-solid fa-book" style="font-size: 20px;"></i>
               <span class="menu-title">&nbsp; Product</span>
             </a>
@@ -83,6 +83,11 @@
                                 <asp:TextBox ID="Category_Name" class="form-control"  aria-label="Username" aria-describedby="basic-addon1" runat="server"></asp:TextBox>
  
                             </div>
+                          <div class="input-group mb-3">
+
+                               <label class="input-group-text" for="inputGroupFile01" style="width:143px;">Category_detail</label>
+                                <asp:TextBox ID="TextBox1" class="form-control"  aria-label="Username" aria-describedby="basic-addon1" runat="server"></asp:TextBox>
+                          </div>
        <div class="input-group mb-3">
            
   <label class="input-group-text" for="inputGroupFile01" style="width:143px;">Upload Image</label>

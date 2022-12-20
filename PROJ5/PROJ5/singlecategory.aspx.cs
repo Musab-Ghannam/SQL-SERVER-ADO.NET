@@ -29,8 +29,9 @@ namespace PROJ5
                
                 Label1.Text += $"<div class=\"row\" style=\"\">\r \n \r \n " +
                     $"<div class=\"card\" style =\"width:250px\">\r\n    " +
-                    $"  <img class=\"card-img-top\"  src='{reader[2]}' style='width:170px'>               " +
+                    $"  <img class=\"card-img-top book\"  src='iamges/{reader[2]}' style='width:170px; height:250px'>               " +
                     $" <div class=\"card-body\">\r\n      <h4 class=\"card-title\">{reader[1]}</h4>\r\n     " +
+                       $" <p class=\"card-text PRICE1\" >Price:{reader[4]}.00JD</p>\r\n    " +
                     $" <p class=\"card-text\">{reader[6]}</p>\r\n    " +
                     $"  <a href=\"http://localhost:56508/cart.aspx\" class=\"btn btn-primary\">add to my cart</a>\r\n    </div>\r\n  </div>\r \n <br> </div>";
 

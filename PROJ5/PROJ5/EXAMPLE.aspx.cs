@@ -70,7 +70,7 @@ namespace PROJ5
             {
                 Label4.Text += $"<div class=\"row\" style=\"\">\r \n \r \n " +
                     $"<div class=\"card \" style =\"width:250px\">\r\n    " +
-                    $"  <img class=\"card-img-top \"  src='{read[2]}' style='width:200px'>               " +
+                    $"  <img class=\"card-img-top \"  src='iamges/{read[2]}' style='width:200px'>               " +
                     $" <div class=\"card-body\">\r\n      <h4 class=\"card-title\">{read[1]}</h4>\r\n     " +
                      $" <p class=\"card-text PRICE\">Price:{read[4]}.00JD</p>\r\n    " +
                         $" <p class=\"card-text PRICE1\">Price:{read[8]}.00JD  </p>\r\n    " +
@@ -119,7 +119,7 @@ namespace PROJ5
                 {
                     Label6.Text += $"<div class=\"row\" style=\"\">\r \n \r \n " +
                     $"<div class=\"card book\" style =\"width:250px\">\r\n    " +
-                    $"  <img class=\"card-img-top book \"  src='{hot[2]}' style='width:170px'>               " +
+                    $"  <img class=\"card-img-top book \"  src='iamges/{hot[2]}' style='width:170px'>               " +
                     $" <div class=\"card-body\">\r\n      <h4 class=\"card-title\">{hot[1]}</h4>\r\n     " +
                      $" <p class=\"card-text PRICE1\" >Price:{hot[4]}.00JD</p>\r\n    " +
                     $" <p class=\"card-text\">Some example text some example text. John Doe is an architect and engineer</p>\r\n    " +

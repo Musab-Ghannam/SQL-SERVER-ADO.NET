@@ -40,7 +40,21 @@ justify-content: center;
  font-weight:bold;
  font-size:50px;
                }
+               .PRICE{
+                   color:gray;
+                   font-weight:bold;
+               }
+               a{
+                   text-decoration:none;
+                   color:black;
 
+               }
+               .book{
+                   display:flex;
+                   justify-content:center;
+                   align-items:center;
+
+               }
 
 
     </style>
@@ -61,15 +75,14 @@ justify-content: center;
 
             </div>
        
-       <div class="info">
-             <p id="reg">regestration</p>
-        <p class="log-in">log in</p>
+      <div class="info">
+              <a href="http://localhost:56508/EXAMPLE.aspx" style="margin-right:30PX">    <p class="log-in">HOME PAGE</p></a>
+           <a href="http://localhost:56508/signup.aspx">     <p id="reg">regestration</p></a>
+       <a href="http://localhost:56508/login.aspx">    <p class="log-in">log in</p></a>
       
           
   <a href="http://localhost:56508/cart.aspx">  <i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
  </div>
-     
-</div>
         <div class="box" >
             <div class="inner">
                <p id="reg1">regestration</p>

@@ -64,6 +64,12 @@ justify-content: center;
 
 
                }
+
+               a{
+                   text-decoration:none;
+                   color:black;
+
+               }
     </style>
 </head>
 <body>
@@ -77,7 +83,7 @@ justify-content: center;
     <div class="NAVBAR">
         <div class="data">
 <img src="pic\My_project-1-removebg-preview.png" id="logo"/>
-          
+       
 
        <%--     <p class="plot">plot bound </p>--%>
             </div>
@@ -88,8 +94,9 @@ justify-content: center;
             </div>
        
        <div class="info">
-             <p id="reg">regestration</p>
-        <p class="log-in">log in</p>
+              <a href="http://localhost:56508/EXAMPLE.aspx" style="margin-right:30PX">    <p class="log-in">HOME PAGE</p></a>
+           <a href="http://localhost:56508/signup.aspx">     <p id="reg">regestration</p></a>
+       <a href="http://localhost:56508/login.aspx">    <p class="log-in">log in</p></a>
       
           
   <a href="http://localhost:56508/cart.aspx">  <i class="fa-sharp fa-solid fa-cart-shopping"></i></a>

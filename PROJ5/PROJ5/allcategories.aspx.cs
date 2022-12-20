@@ -27,9 +27,9 @@ namespace PROJ5
             {
                 Label1.Text += $"<div class=\"row\" style=\"\">\r \n \r \n " +
                     $"<div class=\"card book\" style =\"width:250px\">\r\n    " +
-                    $"  <img class=\"card-img-top book\"  src='Images/{reader[2]}' style='width:170px'>               " +
+                    $"  <img class=\"card-img-top book\"  src='Images/{reader[2]}' style='width:170px; height:250px'>               " +
                     $" <div class=\"card-body\">\r\n      <h4 class=\"card-title\">{reader[1]}</h4>\r\n     " +
-                    $" <p class=\"card-text\">Some example text some example text. John Doe is an architect and engineer</p>\r\n    " +
+                    $" <p class=\"card-text\">{reader[3]}</p>\r\n    " +
                     $"  <a href=\"http://localhost:56508/singlecategory.aspx?category_id={reader[0]}&category_name={reader[1]}\" class=\"btn btn-primary\">See product</a>\r\n    </div>\r\n  </div>\r \n <br> </div>";
 
             }
